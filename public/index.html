@@ -11,7 +11,7 @@
   <script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
   <script>
     //const socket = io("ws://localhost:4000");
-    const socket = io("ws://socket-io-basic.vercel.app");
+    const socket = io("wss://socket-io-basic.vercel.app");
 
     // Join the room and request the current text
     socket.emit("connection");
