@@ -5,7 +5,7 @@ let info = ""
 
 // const httpServer = createServer();
 
-const io = new Server(4000, {
+const io = new Server(process.env.PORT || 4000, {
   cors: {
     origin:"*",
     methods:["GET","POST"],
